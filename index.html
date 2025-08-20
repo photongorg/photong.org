@@ -109,6 +109,34 @@
       letter-spacing: .08em;
       user-select: none;
     }
+
+   .memory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem auto;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    max-width: none;      /* override section default */
+    padding: 0;           /* override section default */
+    width: 100%;          /* take full width */
+  }
+
+  .memory h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+  }
+
+  .memory img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
   </style>
 </head>
 <body>
@@ -121,7 +149,7 @@
     <div class="text">
       <p>On January 22, 2023, Emma and I boarded a flight to China. It was my first trip back since the pandemic began. I carried my compact digital camera and decided to shoot only in black and white in Nanjing, my childhood home.</p>
 
-      <p>My mother passed away a month earlier during the devastating surge that began in December 2022 after the abrupt end of zero-COVID restrictions. Within weeks, nearly everyone I knew in China has been infected; countless elders, including my mother, did not survive. My father had died two years before. Travel bans and border closures meant I could not be there at either of their bedsides. I never got to say goodbye. Now, as one of the first “foreigners” to re-enter China after the lockdown, I was returning not to reunite, but to reckon with absence.</p>
+      <p>My mother passed away a month earlier during the devastating surge that began in December 2022 after the abrupt end of zero-COVID restrictions. Within weeks, nearly everyone I knew in China had been infected; countless elders, including my mother, did not survive. My father had died two years before. Travel bans and border closures meant I could not be there at either of their bedsides. I never got to say goodbye. Now, as one of the first “foreigners” to re-enter China after the lockdown, I was returning not to reunite, but to reckon with absence.</p>
     </div>
   </section>
 
@@ -133,7 +161,7 @@
     </div>
     <figure>
       <img src="images/final_days.jpg" alt="Security camera still of my mother in her final days">
-      <figcaption>Video footage: sister and brother-in-law tending my mother</figcaption>
+      <figcaption>My mother’s final days</figcaption>
     </figure>
   </section>
 
@@ -147,7 +175,7 @@
   </section>
 
   <section>
-    <div class="text">Instead of greeting us at home, they were waiting for us at their final resting place.
+    <div class="text">There was no homecoming — only the quiet ground where they waited for us.
     </div>
     <figure>
       <img src="images/ride_cemetery_1.jpg" alt="View from inside the cab on the way to the cemetery">
@@ -160,7 +188,6 @@
     </div>
     <figure>
       <img src="images/ride_cemetery_2.jpg" alt="Emma holding my hand">
-      <figcaption>Emma holding my hand</figcaption>
     </figure>
   </section>
 
@@ -197,11 +224,11 @@
 
 <section>
     <div class="text">
-      Both my parents were professors. I grew up on the university campus, knowing every nook and cranny of it. Once vibrant, now it felt eerily frozen, emptied of life.
+      Both my parents were professors at the university. They had met as students, fallen in love, and spent their entire adult lives within its walls. I grew up on the campus, knowing every inch of it - its buildings, walkways and hidden corners. Once alive, now it felt eerily still, emptied of life.
     </div>
     <figure>
       <img src="images/university_1.jpg" alt="Walkway on university campus">
-      <figcaption>University main street</figcaption>
+      <figcaption>University main walkway</figcaption>
     </figure>
   </section>
 
@@ -210,7 +237,6 @@
     </div>
     <figure>
       <img src="images/university_2.jpg" alt="Empty athletic field at the university">
-      <figcaption>University athletic field</figcaption>
     </figure>
   </section>
 
@@ -223,7 +249,7 @@
   </section>
 
   <section>
-    <div class="text">We spent the last days walking, saying farewell to the old city. 
+    <div class="text">We spent the last days walking around, saying farewell to my old city. 
     </div>
     <figure>
       <img src="images/nanjing_1.jpg" alt="wu-chao gate">
@@ -236,7 +262,7 @@
     </div>
     <figure>
       <img src="images/nanjing_2.jpg" alt="wu-chao gate">
-      <figcaption>On the top of the Wu Gate</figcaption>
+      <figcaption>Relics at the Wu Gate</figcaption>
     </figure>
   </section>
 
@@ -248,8 +274,12 @@
     </figure>
   </section>
 
-  <section>
-    <div class="text">Life continues, even after so much loss.
+  <div class="elegant-sep" aria-hidden="true"><span>❧❧❧</span></div>
+
+  <section class="memory">
+    <div class="memory-content">
+      <h2>In Loving Memory</h2>
+      <img src="images/dc.jpg" alt="My parents in DC 2000">
     </div>
   </section>
 
