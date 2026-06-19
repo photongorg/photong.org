@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, serif;
     max-width: 900px;
-    margin: 40px auto;
+    margin: 30px auto;
     padding: 0 20px;
     line-height: 1.8;
 }
@@ -43,7 +43,7 @@ a:hover {
 }
 
 .elegant-sep {
-  margin: 0.5rem auto;
+  margin: 0rem auto;
   width: min(70%, 680px);
   display: grid;
   grid-template-columns: 1fr auto 1fr;
