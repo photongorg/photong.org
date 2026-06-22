@@ -62,3 +62,20 @@ a:hover {
   letter-spacing: .08em;
   user-select: none;
 }
+
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+  font-size: 75%;
+}
+
+footer {
+    margin-top: 25px;
+    color: #666;
+}
+
+footer div {
+    margin-top: 5px;
+}
+
