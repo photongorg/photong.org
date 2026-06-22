@@ -70,12 +70,23 @@ sup {
   font-size: 75%;
 }
 
+/* Footnote section container */
 footer {
-    margin-top: 25px;
-    color: #666;
+    margin-top: 3em;
+    padding-top: 1em;
+    border-top: 1px solid #ccc; /* the separating line */
 }
 
+/* Footnote text */
 footer div {
-    margin-top: 5px;
+    color: #666;              /* gray text */
+    font-size: 0.9em;         /* slightly smaller */
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+}
+
+/* Optional: footnote number styling */
+footer div::before {
+    font-weight: bold;
 }
 
